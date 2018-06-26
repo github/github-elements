@@ -1,0 +1,21 @@
+{
+  "name": "github-elements",
+  "authors": [
+    "GitHub"
+  ],
+  "keywords": [
+    "element-collection"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "auto-check-element": "github/auto-check-element",
+    "auto-complete-element": "github/auto-complete-element",
+    "clipboard-copy-element": "github/clipboard-copy-element",
+    "details-dialog-element": "github/details-dialog-element",
+    "image-crop-element": "github/image-crop-element",
+    "include-fragment-element": "github/include-fragment-element",
+    "markdown-toolbar-element": "github/markdown-toolbar-element",
+    "task-lists-element": "github/task-lists-element",
+    "time-elements": "github/time-elements"
+  }
+}
