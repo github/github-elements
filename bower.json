@@ -12,9 +12,13 @@
     "auto-complete-element": "github/auto-complete-element",
     "clipboard-copy-element": "github/clipboard-copy-element",
     "details-dialog-element": "github/details-dialog-element",
+    "details-menu-element": "github/details-menu-element",
+    "g-emoji-element": "github/g-emoji-element",
     "image-crop-element": "github/image-crop-element",
     "include-fragment-element": "github/include-fragment-element",
     "markdown-toolbar-element": "github/markdown-toolbar-element",
+    "remote-input-element": "github/remote-input-element",
+    "tab-container-element": "github/tab-container-element",
     "task-lists-element": "github/task-lists-element",
     "time-elements": "github/time-elements"
   }
