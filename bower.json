@@ -13,6 +13,8 @@
     "clipboard-copy-element": "github/clipboard-copy-element",
     "details-dialog-element": "github/details-dialog-element",
     "details-menu-element": "github/details-menu-element",
+    "file-attachment-element": "github/file-attachment-element",
+    "filter-input-element": "github/filter-input-element",
     "g-emoji-element": "github/g-emoji-element",
     "image-crop-element": "github/image-crop-element",
     "include-fragment-element": "github/include-fragment-element",
@@ -20,6 +22,7 @@
     "remote-input-element": "github/remote-input-element",
     "tab-container-element": "github/tab-container-element",
     "task-lists-element": "github/task-lists-element",
+    "text-expander-element": "github/text-expander-element",
     "time-elements": "github/time-elements"
   }
 }
