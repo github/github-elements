@@ -23,6 +23,7 @@
     "tab-container-element": "github/tab-container-element",
     "task-lists-element": "github/task-lists-element",
     "text-expander-element": "github/text-expander-element",
+    "remote-input-element": "github/remote-input-element",
     "time-elements": "github/time-elements"
   }
 }
