@@ -21,6 +21,8 @@ jobs:
       with:
         node-version: 15.x
     - run: node generate.js
+    - with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit & Push Generated Data
       run: |
         git config --local user.email "actions@github.com"
