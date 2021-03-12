@@ -16,6 +16,10 @@ function escape(str) {
 
 function json(url) {
   return new Promise((resolve, reject) => {
+    if (!process.env['GITHUB_TOKEN']) {
+      return reject(new Error('GITHUB_TOKEN is not defined'))
+    }
+
     const req = request(url, {
       headers: {
         'User-Agent': `nodejs ${process.version}`,
