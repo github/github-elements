@@ -19,7 +19,7 @@ jobs:
     - name: Generate data
       uses: actions/setup-node@v1
       with:
-        node-version: latest
+        node-version: 15.x
     - run: node generate.js
     - name: Commit & Push Generated Data
       run: |
