@@ -71,12 +71,16 @@ We have ${repos.length} open source custom elements:
 for (const repo of repos) {
   bowerJson.dependencies[repo.name] = repo.full_name
   packageJson.dependencies[`@${repo.full_name}`] = '*'
+  let exampleLink = '';
+  if (repo.homepage) {
+    exampleLink = ` | [Example](${repo.homepage})`
+  }
   readme += `
 ### [${escape(repo.full_name)}](${repo.html_url})
 
 ${escape(repo.description)}
 
-[Link](${repo.html_url})
+[Repository](${repo.html_url})${exampleLink}
 `
 }
 readme += readFileSync('readme.tail.md', 'utf-8')
