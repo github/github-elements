@@ -2,7 +2,7 @@
 
 GitHub's Web Component collection.
 
-We have 16 open source custom elements:
+We have 17 open source custom elements:
 
 ### [github/auto-check-element](https://github.com/github/auto-check-element)
 
@@ -99,3 +99,9 @@ Activates a suggestion menu to expand text snippets as you type.
 Web component extensions to the standard &lt;time&gt; element.
 
 [Repository](https://github.com/github/time-elements) | [Example](https://github.github.io/time-elements/examples/)
+
+### [github/typing-effect-element](https://github.com/github/typing-effect-element)
+
+A custom element that shows text as if it were being typed
+
+[Repository](https://github.com/github/typing-effect-element) | [Example](https://github.github.com/typing-effect-element/examples/)
