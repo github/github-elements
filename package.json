@@ -13,7 +13,9 @@
   "type": "module",
   "main": "",
   "scripts": {
-    "generate": "node generate.js"
+    "generate": "node generate.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@github/auto-check-element": "*",
@@ -33,5 +35,18 @@
     "@github/text-expander-element": "*",
     "@github/time-elements": "*",
     "@github/typing-effect-element": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@primer/css": "^20.4.3",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/web-components": "^6.5.10",
+    "babel-loader": "^8.2.5",
+    "lit-html": "^2.3.1",
+    "storybook": "^6.5.10"
   }
 }
