@@ -19,11 +19,11 @@
     "image-crop-element": "github/image-crop-element",
     "include-fragment-element": "github/include-fragment-element",
     "markdown-toolbar-element": "github/markdown-toolbar-element",
+    "relative-time-element": "github/relative-time-element",
     "remote-input-element": "github/remote-input-element",
     "tab-container-element": "github/tab-container-element",
     "task-lists-element": "github/task-lists-element",
     "text-expander-element": "github/text-expander-element",
-    "time-elements": "github/time-elements",
     "typing-effect-element": "github/typing-effect-element"
   }
 }

@@ -27,11 +27,11 @@
     "@github/image-crop-element": "*",
     "@github/include-fragment-element": "*",
     "@github/markdown-toolbar-element": "*",
+    "@github/relative-time-element": "*",
     "@github/remote-input-element": "*",
     "@github/tab-container-element": "*",
     "@github/task-lists-element": "*",
     "@github/text-expander-element": "*",
-    "@github/time-elements": "*",
     "@github/typing-effect-element": "*"
   }
 }

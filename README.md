@@ -70,6 +70,12 @@ Markdown formatting buttons for text inputs.
 
 [Repository](https://github.com/github/markdown-toolbar-element) | [Example](https://github.github.com/markdown-toolbar-element/examples/)
 
+### [github/relative-time-element](https://github.com/github/relative-time-element)
+
+Web component extensions to the standard &lt;time&gt; element.
+
+[Repository](https://github.com/github/relative-time-element) | [Example](https://github.github.io/time-elements/examples/)
+
 ### [github/remote-input-element](https://github.com/github/remote-input-element)
 
 An input element that sends its value to a server endpoint and renders the response body.
@@ -93,12 +99,6 @@ Drag and drop task list items.
 Activates a suggestion menu to expand text snippets as you type.
 
 [Repository](https://github.com/github/text-expander-element) | [Example](http://github.github.io/text-expander-element/examples)
-
-### [github/time-elements](https://github.com/github/time-elements)
-
-Web component extensions to the standard &lt;time&gt; element.
-
-[Repository](https://github.com/github/time-elements) | [Example](https://github.github.io/time-elements/examples/)
 
 ### [github/typing-effect-element](https://github.com/github/typing-effect-element)
 
