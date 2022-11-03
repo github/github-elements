@@ -74,7 +74,7 @@ Markdown formatting buttons for text inputs.
 
 Web component extensions to the standard &lt;time&gt; element.
 
-[Repository](https://github.com/github/relative-time-element) | [Example](https://github.github.io/time-elements/examples/)
+[Repository](https://github.com/github/relative-time-element) | [Example](https://github.github.io/relative-time-element/examples/)
 
 ### [github/remote-input-element](https://github.com/github/remote-input-element)
 
