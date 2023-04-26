@@ -1,0 +1,41 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:github/browser",
+    "plugin:github/recommended",
+    "plugin:github/typescript",
+    "plugin:custom-elements/recommended"
+  ],
+  "rules": {
+    "custom-elements/tag-name-matches-class": [
+      "error",
+      {
+        "suffix": "Element"
+      }
+    ],
+    "custom-elements/define-tag-after-class-definition": "off",
+    "custom-elements/no-method-prefixed-with-on": "off",
+    "custom-elements/expose-class-on-global": "off",
+    "import/extensions": ["error", "always"],
+    "import/no-unresolved": "off"
+  },
+  "overrides": [
+    {
+      "files": "src/*-define.ts",
+      "rules": {
+        "@typescript-eslint/no-namespace": "off"
+      }
+    },
+    {
+      "files": "test/**/*.js",
+      "rules": {
+        "github/unescaped-html-literal": "off",
+        "github/no-inner-html": "off",
+        "i18n-text/no-en": "off"
+      },
+      "env": {
+        "mocha": true
+      }
+    }
+  ]
+}

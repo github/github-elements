@@ -1,0 +1,52 @@
+{
+  "name": "@github/relative-time-element",
+  "version": "0.0.0-development",
+  "main": "dist/bundle.js",
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "custom-elements.json"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./define": "./dist/index.js",
+    "./relative-time": "./dist/relative-time-element.js",
+    "./relative-time/define": "./dist/relative-time-element-define.js"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint . --ext .js,.ts && tsc --noEmit",
+    "lint:fix": "npm run lint -- --fix",
+    "prebuild": "npm run clean && npm run lint && mkdir dist",
+    "bundle": "esbuild --bundle dist/index.js --keep-names --outfile=dist/bundle.js --format=esm",
+    "build": "tsc && npm run bundle && npm run manifest",
+    "prepublishOnly": "npm run build",
+    "pretest": "npm run build",
+    "test": "web-test-runner",
+    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'",
+    "manifest": "custom-elements-manifest analyze"
+  },
+  "prettier": "@github/prettier-config",
+  "repository": "github/relative-time-element",
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.8.0",
+    "@github/prettier-config": "^0.0.6",
+    "@js-temporal/polyfill": "^0.4.3",
+    "@open-wc/testing": "^3.1.8",
+    "@web/dev-server-esbuild": "^0.3.6",
+    "@web/test-runner": "^0.15.3",
+    "@web/test-runner-playwright": "^0.9.0",
+    "esbuild": "^0.17.17",
+    "eslint": "^8.38.0",
+    "eslint-plugin-custom-elements": "^0.0.8",
+    "eslint-plugin-github": "^4.7.0",
+    "typescript": "^5.0.4"
+  },
+  "eslintIgnore": [
+    "dist/"
+  ],
+  "customElements": "custom-elements.json"
+}
