@@ -1,6 +1,5 @@
 {
-  "name": "github-elements",
-  "private": true,
+  "name": "@github/elements",
   "description": "GitHub's Web Component collection.",
   "keywords": [
     "element-collection"
