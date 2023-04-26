@@ -1,16 +1,25 @@
 {
   "name": "@github/elements",
+  "version": "1.0.0",
   "description": "GitHub's Web Component collection.",
   "keywords": [
     "element-collection"
   ],
+  "homepage": "https://github.com/github/github-elements#readme",
+  "bugs": {
+    "url": "https://github.com/github/github-elements/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/github/github-elements.git"
   },
   "license": "MIT",
+  "author": "",
   "type": "module",
-  "main": "",
+  "main": "index.js",
+  "workspaces": [
+    "relative-time-element"
+  ],
   "scripts": {
     "generate": "node generate.js"
   },
