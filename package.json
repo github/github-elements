@@ -15,23 +15,5 @@
   "scripts": {
     "generate": "node generate.js"
   },
-  "dependencies": {
-    "@github/auto-check-element": "*",
-    "@github/auto-complete-element": "*",
-    "@github/clipboard-copy-element": "*",
-    "@github/details-dialog-element": "*",
-    "@github/details-menu-element": "*",
-    "@github/file-attachment-element": "*",
-    "@github/filter-input-element": "*",
-    "@github/g-emoji-element": "*",
-    "@github/image-crop-element": "*",
-    "@github/include-fragment-element": "*",
-    "@github/markdown-toolbar-element": "*",
-    "@github/relative-time-element": "*",
-    "@github/remote-input-element": "*",
-    "@github/tab-container-element": "*",
-    "@github/task-lists-element": "*",
-    "@github/text-expander-element": "*",
-    "@github/typing-effect-element": "*"
-  }
+  "dependencies": {}
 }
