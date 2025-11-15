@@ -22,9 +22,7 @@ Copy element text content or input values to the clipboard.
 
 [Repository](https://github.com/github/clipboard-copy-element) | [Example](https://github.github.io/clipboard-copy-element/examples/)
 
-### [github/details-dialog-element](https://github.com/github/details-dialog-element) (archived)
-
-‼️ Use Primer::Alpha::Dialog instead: https://primer.style/product/getting-started/rails/migration-guides/primer-dialog/
+### [github/details-dialog-element](https://github.com/github/details-dialog-element)
 
 A modal dialog that&#39;s opened with &lt;details&gt;.
 
